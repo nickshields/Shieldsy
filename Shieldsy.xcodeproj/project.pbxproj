@@ -15,6 +15,10 @@
 		13359A1F243D57CF004159B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13359A1E243D57CF004159B3 /* Assets.xcassets */; };
 		13359A22243D57CF004159B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13359A20243D57CF004159B3 /* LaunchScreen.storyboard */; };
 		13359A2A243D5886004159B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13359A29243D5886004159B3 /* LoginViewController.swift */; };
+		136C3F71243D7716008979ED /* LoginPageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C3F70243D7716008979ED /* LoginPageViewViewController.swift */; };
+		136C3F73243E38F3008979ED /* BackgroundVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C3F72243E38F3008979ED /* BackgroundVideoView.swift */; };
+		136C3F75243E3ECB008979ED /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 136C3F74243E3ECB008979ED /* video.mp4 */; };
+		13916ABA243E50E100A5AD0D /* carson.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 13916AB9243E50E100A5AD0D /* carson.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		13359A21243D57CF004159B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13359A23243D57CF004159B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13359A29243D5886004159B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		136C3F70243D7716008979ED /* LoginPageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewViewController.swift; sourceTree = "<group>"; };
+		136C3F72243E38F3008979ED /* BackgroundVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideoView.swift; sourceTree = "<group>"; };
+		136C3F74243E3ECB008979ED /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../../Downloads/video.mp4; sourceTree = "<group>"; };
+		13916AB9243E50E100A5AD0D /* carson.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = carson.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,15 @@
 		13359A12243D57CE004159B3 /* Shieldsy */ = {
 			isa = PBXGroup;
 			children = (
+				136C3F74243E3ECB008979ED /* video.mp4 */,
+				13916AB9243E50E100A5AD0D /* carson.MOV */,
 				13359A13243D57CE004159B3 /* AppDelegate.swift */,
 				13359A15243D57CE004159B3 /* SceneDelegate.swift */,
 				13359A17243D57CE004159B3 /* FirstViewController.swift */,
 				13359A19243D57CE004159B3 /* SecondViewController.swift */,
 				13359A1B243D57CE004159B3 /* Main.storyboard */,
+				136C3F72243E38F3008979ED /* BackgroundVideoView.swift */,
+				136C3F70243D7716008979ED /* LoginPageViewViewController.swift */,
 				13359A29243D5886004159B3 /* LoginViewController.swift */,
 				13359A1E243D57CF004159B3 /* Assets.xcassets */,
 				13359A20243D57CF004159B3 /* LaunchScreen.storyboard */,
@@ -134,6 +146,8 @@
 				13359A22243D57CF004159B3 /* LaunchScreen.storyboard in Resources */,
 				13359A1F243D57CF004159B3 /* Assets.xcassets in Resources */,
 				13359A1D243D57CE004159B3 /* Main.storyboard in Resources */,
+				13916ABA243E50E100A5AD0D /* carson.MOV in Resources */,
+				136C3F75243E3ECB008979ED /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +160,11 @@
 			files = (
 				13359A1A243D57CE004159B3 /* SecondViewController.swift in Sources */,
 				13359A18243D57CE004159B3 /* FirstViewController.swift in Sources */,
+				136C3F71243D7716008979ED /* LoginPageViewViewController.swift in Sources */,
 				13359A14243D57CE004159B3 /* AppDelegate.swift in Sources */,
 				13359A2A243D5886004159B3 /* LoginViewController.swift in Sources */,
 				13359A16243D57CE004159B3 /* SceneDelegate.swift in Sources */,
+				136C3F73243E38F3008979ED /* BackgroundVideoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

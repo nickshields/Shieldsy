@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            try audioSession.setCategory(.playback, mode: .moviePlayback)
+        }
+        catch {
+            print("Setting category to AVAudioSessionCategoryPlayback failed.")
+        }
+        
+        //Needed for setting the page dot properties on the login window.
+        let proxy = UIPageControl.appearance()
+        proxy.pageIndicatorTintColor = UIColor.red.withAlphaComponent(0.6)
+        proxy.currentPageIndicatorTintColor = .red
+        proxy.backgroundColor = .yellow
+        
         return true
     }
 
