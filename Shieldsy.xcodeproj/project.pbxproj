@@ -16,9 +16,18 @@
 		13359A22243D57CF004159B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13359A20243D57CF004159B3 /* LaunchScreen.storyboard */; };
 		13359A2A243D5886004159B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13359A29243D5886004159B3 /* LoginViewController.swift */; };
 		136C3F71243D7716008979ED /* LoginPageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C3F70243D7716008979ED /* LoginPageViewViewController.swift */; };
-		136C3F73243E38F3008979ED /* BackgroundVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C3F72243E38F3008979ED /* BackgroundVideoView.swift */; };
 		136C3F75243E3ECB008979ED /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 136C3F74243E3ECB008979ED /* video.mp4 */; };
 		13916ABA243E50E100A5AD0D /* carson.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 13916AB9243E50E100A5AD0D /* carson.MOV */; };
+		13916ABD243EB20000A5AD0D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13916ABC243EB20000A5AD0D /* Roboto-Regular.ttf */; };
+		13916ABF243EB23400A5AD0D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13916ABE243EB23400A5AD0D /* Roboto-Medium.ttf */; };
+		13916AC1243EB2F100A5AD0D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13916AC0243EB2F100A5AD0D /* Constants.swift */; };
+		13916AC3243ECB4500A5AD0D /* EnterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13916AC2243ECB4500A5AD0D /* EnterLoginViewController.swift */; };
+		13916AC5243F9A4400A5AD0D /* SandboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13916AC4243F9A4400A5AD0D /* SandboxViewController.swift */; };
+		13CEEE9D24400EF8001F8873 /* stacky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CEEE9C24400EF8001F8873 /* stacky.swift */; };
+		13CEEE9F24401E1D001F8873 /* loginTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CEEE9E24401E1D001F8873 /* loginTextFields.swift */; };
+		13CEEEA22440D72A001F8873 /* UsernameTextFieldBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CEEEA12440D72A001F8873 /* UsernameTextFieldBackground.swift */; };
+		13EA1C3A2440DA1600B228AB /* PasswordTextFieldBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA1C392440DA1600B228AB /* PasswordTextFieldBackground.swift */; };
+		13EA1C3C2440E22B00B228AB /* LoginScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA1C3B2440E22B00B228AB /* LoginScreenButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +42,18 @@
 		13359A23243D57CF004159B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13359A29243D5886004159B3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		136C3F70243D7716008979ED /* LoginPageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewViewController.swift; sourceTree = "<group>"; };
-		136C3F72243E38F3008979ED /* BackgroundVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideoView.swift; sourceTree = "<group>"; };
 		136C3F74243E3ECB008979ED /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../../Downloads/video.mp4; sourceTree = "<group>"; };
 		13916AB9243E50E100A5AD0D /* carson.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = carson.MOV; sourceTree = "<group>"; };
+		13916ABC243EB20000A5AD0D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		13916ABE243EB23400A5AD0D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		13916AC0243EB2F100A5AD0D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		13916AC2243ECB4500A5AD0D /* EnterLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLoginViewController.swift; sourceTree = "<group>"; };
+		13916AC4243F9A4400A5AD0D /* SandboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxViewController.swift; sourceTree = "<group>"; };
+		13CEEE9C24400EF8001F8873 /* stacky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stacky.swift; sourceTree = "<group>"; };
+		13CEEE9E24401E1D001F8873 /* loginTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginTextFields.swift; sourceTree = "<group>"; };
+		13CEEEA12440D72A001F8873 /* UsernameTextFieldBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextFieldBackground.swift; sourceTree = "<group>"; };
+		13EA1C392440DA1600B228AB /* PasswordTextFieldBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldBackground.swift; sourceTree = "<group>"; };
+		13EA1C3B2440E22B00B228AB /* LoginScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,21 +86,46 @@
 		13359A12243D57CE004159B3 /* Shieldsy */ = {
 			isa = PBXGroup;
 			children = (
+				13916ABB243EB1C800A5AD0D /* Fonts */,
 				136C3F74243E3ECB008979ED /* video.mp4 */,
 				13916AB9243E50E100A5AD0D /* carson.MOV */,
+				13CEEEA02440D679001F8873 /* LoginScreen */,
 				13359A13243D57CE004159B3 /* AppDelegate.swift */,
 				13359A15243D57CE004159B3 /* SceneDelegate.swift */,
 				13359A17243D57CE004159B3 /* FirstViewController.swift */,
 				13359A19243D57CE004159B3 /* SecondViewController.swift */,
 				13359A1B243D57CE004159B3 /* Main.storyboard */,
-				136C3F72243E38F3008979ED /* BackgroundVideoView.swift */,
+				13CEEE9C24400EF8001F8873 /* stacky.swift */,
+				13916AC4243F9A4400A5AD0D /* SandboxViewController.swift */,
 				136C3F70243D7716008979ED /* LoginPageViewViewController.swift */,
 				13359A29243D5886004159B3 /* LoginViewController.swift */,
 				13359A1E243D57CF004159B3 /* Assets.xcassets */,
 				13359A20243D57CF004159B3 /* LaunchScreen.storyboard */,
 				13359A23243D57CF004159B3 /* Info.plist */,
+				13916AC0243EB2F100A5AD0D /* Constants.swift */,
 			);
 			path = Shieldsy;
+			sourceTree = "<group>";
+		};
+		13916ABB243EB1C800A5AD0D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				13916ABC243EB20000A5AD0D /* Roboto-Regular.ttf */,
+				13916ABE243EB23400A5AD0D /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		13CEEEA02440D679001F8873 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				13EA1C3B2440E22B00B228AB /* LoginScreenButton.swift */,
+				13916AC2243ECB4500A5AD0D /* EnterLoginViewController.swift */,
+				13CEEE9E24401E1D001F8873 /* loginTextFields.swift */,
+				13CEEEA12440D72A001F8873 /* UsernameTextFieldBackground.swift */,
+				13EA1C392440DA1600B228AB /* PasswordTextFieldBackground.swift */,
+			);
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13916ABD243EB20000A5AD0D /* Roboto-Regular.ttf in Resources */,
 				13359A22243D57CF004159B3 /* LaunchScreen.storyboard in Resources */,
 				13359A1F243D57CF004159B3 /* Assets.xcassets in Resources */,
+				13916ABF243EB23400A5AD0D /* Roboto-Medium.ttf in Resources */,
 				13359A1D243D57CE004159B3 /* Main.storyboard in Resources */,
 				13916ABA243E50E100A5AD0D /* carson.MOV in Resources */,
 				136C3F75243E3ECB008979ED /* video.mp4 in Resources */,
@@ -158,13 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CEEE9F24401E1D001F8873 /* loginTextFields.swift in Sources */,
+				13EA1C3C2440E22B00B228AB /* LoginScreenButton.swift in Sources */,
 				13359A1A243D57CE004159B3 /* SecondViewController.swift in Sources */,
 				13359A18243D57CE004159B3 /* FirstViewController.swift in Sources */,
+				13EA1C3A2440DA1600B228AB /* PasswordTextFieldBackground.swift in Sources */,
+				13916AC3243ECB4500A5AD0D /* EnterLoginViewController.swift in Sources */,
 				136C3F71243D7716008979ED /* LoginPageViewViewController.swift in Sources */,
 				13359A14243D57CE004159B3 /* AppDelegate.swift in Sources */,
 				13359A2A243D5886004159B3 /* LoginViewController.swift in Sources */,
+				13CEEE9D24400EF8001F8873 /* stacky.swift in Sources */,
 				13359A16243D57CE004159B3 /* SceneDelegate.swift in Sources */,
-				136C3F73243E38F3008979ED /* BackgroundVideoView.swift in Sources */,
+				13916AC5243F9A4400A5AD0D /* SandboxViewController.swift in Sources */,
+				13916AC1243EB2F100A5AD0D /* Constants.swift in Sources */,
+				13CEEEA22440D72A001F8873 /* UsernameTextFieldBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

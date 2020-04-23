@@ -13,9 +13,9 @@ import AVFoundation
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch. This code had to do with when
+        // I was implementing video overlay.. It might not be needed since there is no audio.
         let audioSession = AVAudioSession.sharedInstance()
         do {
             try audioSession.setCategory(.playback, mode: .moviePlayback)
@@ -26,9 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Needed for setting the page dot properties on the login window.
         let proxy = UIPageControl.appearance()
-        proxy.pageIndicatorTintColor = UIColor.red.withAlphaComponent(0.6)
-        proxy.currentPageIndicatorTintColor = .red
-        proxy.backgroundColor = .yellow
+        proxy.pageIndicatorTintColor = UIColor.gray
+        proxy.currentPageIndicatorTintColor = .white
+        //proxy.backgroundColor = .yellow
         
         return true
     }

@@ -7,30 +7,56 @@
 //
 
 import UIKit
+import AVFoundation
+import AVKit
 
 
 class LoginViewController: UIViewController {
+    
+    
+    
+    var player: AVQueuePlayer!
+    var playerLayer: AVPlayerLayer!
+    var playerItem: AVPlayerItem!
+    var playerLooper: AVPlayerLooper!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         print("This view did load!")
-        
+        self.startBackgroundVideo()
         
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func startBackgroundVideo(){
+        self.player = AVQueuePlayer()
+        playerLayer = AVPlayerLayer(player: player)
+        playerLayer.frame = self.view.bounds
+        playerLayer.videoGravity = .resizeAspectFill
+        self.view.layer.insertSublayer(playerLayer, at: 0)
+        
+        let filepath: String? = Bundle.main.path(forResource: "video", ofType: "mp4")
+        let fileURL = URL.init(fileURLWithPath: filepath!)
+        playerItem = AVPlayerItem(url: fileURL)
+        
+        playerLooper = AVPlayerLooper(player: player, templateItem: playerItem)
+        player.play()
     }
-    */
+    
+    
+    
+    
+    @IBAction func loginButton(_ sender: Any) {
+        print("Login Button Pressed!")
+        performSegue(withIdentifier: "login", sender: "login_button")
 
+    }
+    
+    @IBAction func gettingStartedButton(_ sender: Any) {
+        print("Getting started button pressed!")
+        
+    }
 }
 
 @IBDesignable extension UIButton {
